@@ -1,6 +1,6 @@
-<h1>Simulador de Porta</h1>
+# Simulador de Porta
 
-<h4> Ultiliza 3 Classes sendo elas :</h4>
+##### Classes ultilizadas</h4>
 
 * Menu
 * Porta
