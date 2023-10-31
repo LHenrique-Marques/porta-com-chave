@@ -1,8 +1,9 @@
-class menu():
+class menu(): #Classe que trabalha com as escolhas do usuario
     def __init__(self):
         self.menu = None
 
-    def mostra(self):
+    
+    def mostra(self): #Metodo para mostrar as opções possiveis dentro do menu
         print(""""
         ----------- Menu De Escolhas ------------------
         0 - Fechar programa
@@ -10,13 +11,13 @@ class menu():
         2 - Gerenciar Porta
         """)
 
-    def escolhe(self):
-        c = porta()
-        d = chave()
+    def escolhe(self): #Metodo PRINCIPAL no funcionamento do código, método de interação com o menu
+        c = porta() #Instanciando e acrescentando a classe "porta"
+        d = chave() #Instanciando e acrescentando a classe "chave"
 
-        while True:
-            self.mostra()
-            escolha = int(input("O que você deseja fazer ?"))
+        while True: #criando uma condição para manter o loop na escolha do usuario para que se ele digitar 0 feche o programa.
+            self.mostra() #chamando o metodo que mostra as opções
+            escolha = int(input("O que você deseja fazer ?")) #Escolha do usuario de qual o seu caminho Obs: Escolha é pelo indice
 
             # Menu da chave
             if escolha == 1:
