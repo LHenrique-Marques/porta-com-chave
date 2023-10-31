@@ -1,1 +1,1 @@
-<h1>Simulador de Porta !</h1>
+<h1>Simulador de Porta !</h1>z
