@@ -1,6 +1,6 @@
 # Simulador de Porta
 
-### Classes ultilizadas
+### Classes ultilizadas |
 
 Função | O que ela faz
 -------|------------
