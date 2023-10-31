@@ -2,10 +2,6 @@
 
 ##### Classes ultilizadas</h4>
 
-* Menu
-* Chave
-* Porta
-
 Função | O que ela faz
 -------|------------
 Menu   | Menu principal que da a opção ao usuario se ele quer gerenciar uma chave ou se ele quer ir direto tentar ultilizar a porta.
